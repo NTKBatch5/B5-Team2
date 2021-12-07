@@ -26,7 +26,6 @@ public class DemoGuru {
 		driver.findElement(By.name("password")).sendKeys("tutorial");
 		
 	//  <input type="submit" name="submit" value="Submit" style="background-color etc...
-		
 		driver.findElement(By.name("submit")).click();
 		
 		Thread.sleep(7000);
