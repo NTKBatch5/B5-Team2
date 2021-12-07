@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Demo {
-	
+
 	public static void main(String[] args) throws InterruptedException {
 
 		String url = "https://demoqa.com/text-box/";
@@ -29,40 +29,40 @@ public class Demo {
 		driver.findElement(By.id("submit")).click();
 
 		Thread.sleep(5000);
-	
-	url = "http://demo.guru99.com/test/newtours/";
 
-	driver.get(url);
-	
-	driver.findElement(By.linkText("REGISTER")).click();
+		url = "http://demo.guru99.com/test/newtours/";
 
-	driver.findElement(By.name("firstName")).sendKeys("Mihail");
+		driver.get(url);
 
-	driver.findElement(By.name("lastName")).sendKeys("Stegariov");
-	
-	driver.findElement(By.name("phone")).sendKeys("240-393-5816");
-	
-	driver.findElement(By.name("userName")).sendKeys("mihail.aquasafe@gmail.com");
-	
-	driver.findElement(By.name("address1")).sendKeys("14801 Hammersmith Circle");
-	
-	driver.findElement(By.name("city")).sendKeys("Silver Spring");
-	
-	driver.findElement(By.name("state")).sendKeys("Maryland");
-	
-	driver.findElement(By.name("postalCode")).sendKeys("20906");
-	
-	driver.findElement(By.name("email")).sendKeys("mihail.aquasafe@gmail.com");
-	
-	driver.findElement(By.name("password")).sendKeys("Sasha09092018");
-	
-	driver.findElement(By.name("confirmPassword")).sendKeys("Sasha09092018");
-	
-	driver.findElement(By.name("submit")).click();
+		driver.findElement(By.linkText("REGISTER")).click();
 
-	Thread.sleep(5000);
+		driver.findElement(By.name("firstName")).sendKeys("Mihail");
 
-	driver.close();
+		driver.findElement(By.name("lastName")).sendKeys("Stegariov");
+
+		driver.findElement(By.name("phone")).sendKeys("240-393-5816");
+
+		driver.findElement(By.name("userName")).sendKeys("mihail.aquasafe@gmail.com");
+
+		driver.findElement(By.name("address1")).sendKeys("14801 Hammersmith Circle");
+
+		driver.findElement(By.name("city")).sendKeys("Silver Spring");
+
+		driver.findElement(By.name("state")).sendKeys("Maryland");
+
+		driver.findElement(By.name("postalCode")).sendKeys("20906");
+
+		driver.findElement(By.name("email")).sendKeys("mihail.aquasafe@gmail.com");
+
+		driver.findElement(By.name("password")).sendKeys("Sasha09092018");
+
+		driver.findElement(By.name("confirmPassword")).sendKeys("Sasha09092018");
+
+		driver.findElement(By.name("submit")).click();
+
+		Thread.sleep(5000);
+
+		driver.close();
 
 	}
 }
