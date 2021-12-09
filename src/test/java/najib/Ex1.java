@@ -8,6 +8,7 @@ public class Ex1 {
 
 	public static void main(String[] args) throws InterruptedException {
 
+		
 		String url = "http://demo.guru99.com/test/newtours/";
 		// Set System property for chromedrive
 		System.setProperty("webdriver.chrome.driver", 
