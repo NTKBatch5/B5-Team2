@@ -35,9 +35,11 @@ public class ExerciseOne {
 		Thread.sleep(1000);
 
 		driver.findElement(By.id("submit")).sendKeys(Keys.ENTER);
-		System.out.println("Sending over the HW1");
+		
 		// wiat for 4s
 		Thread.sleep(2000);
+		
+	
 		// close the browser
 		driver.quit();
 
