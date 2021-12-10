@@ -16,5 +16,6 @@ public class NewClass {
 
 	public static void addingCode (String name) {
 		System.out.println("added new method stmnt");
+		System.out.println("We cannot merge");
 	}
 }
