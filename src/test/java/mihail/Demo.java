@@ -18,11 +18,11 @@ public class Demo {
 
 		driver.get(url);
 
-		driver.findElement(By.id("userName")).sendKeys("Mihail Stegariov");
+		driver.findElement(By.id("userName")).sendKeys("John Cena");
 
-		driver.findElement(By.id("userEmail")).sendKeys("mihail.aquasafe@gmail.com");
+		driver.findElement(By.id("userEmail")).sendKeys("john_cena@gmail.com");
 
-		driver.findElement(By.id("currentAddress")).sendKeys("14801 Hammersmith Circle Silver Spring, MD");
+		driver.findElement(By.id("currentAddress")).sendKeys("7466 New Ridge Road");
 
 		driver.findElement(By.id("permanentAddress")).sendKeys("1820 Michael Faraday Dr Suite 20, Reston, VA ");
 
@@ -40,11 +40,11 @@ public class Demo {
 
 		driver.findElement(By.name("lastName")).sendKeys("Stegariov");
 
-		driver.findElement(By.name("phone")).sendKeys("240-393-5816");
+		driver.findElement(By.name("phone")).sendKeys("555-555-5555");
 
-		driver.findElement(By.name("userName")).sendKeys("mihail.aquasafe@gmail.com");
+		driver.findElement(By.name("userName")).sendKeys("john_cena@gmail.com");
 
-		driver.findElement(By.name("address1")).sendKeys("14801 Hammersmith Circle");
+		driver.findElement(By.name("address1")).sendKeys("7466 New Ridge Road");
 
 		driver.findElement(By.name("city")).sendKeys("Silver Spring");
 
@@ -52,7 +52,7 @@ public class Demo {
 
 		driver.findElement(By.name("postalCode")).sendKeys("20906");
 
-		driver.findElement(By.name("email")).sendKeys("mihail.aquasafe@gmail.com");
+		driver.findElement(By.name("email")).sendKeys("john_cena@gmail.com");
 
 		driver.findElement(By.name("password")).sendKeys("Sasha09092018");
 
