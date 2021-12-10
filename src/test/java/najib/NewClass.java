@@ -7,7 +7,7 @@ public class NewClass {
 		createCodes("Blah-Blah");
 		
 		System.out.println("Creating new Class");
-
+	//practice comment.....please delete comment
 	}
 	
 	public static void createCodes(String code) {
