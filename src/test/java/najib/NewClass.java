@@ -14,4 +14,7 @@ public class NewClass {
 		System.out.println(code);
 	}
 
+	public static void addingCode (String name) {
+		System.out.println("added new method stmnt");
+	}
 }
