@@ -1,12 +1,17 @@
+
 package mihail;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 public class Demo {
-
+	
 	public static void main(String[] args) throws InterruptedException {
+
+		String url = "http://demo.guru99.com/test/newtours/";
 
 		String url = "https://demoqa.com/text-box/";
 
@@ -17,6 +22,16 @@ public class Demo {
 		driver.manage().window().maximize();
 
 		driver.get(url);
+
+		driver.findElement(By.linkText("REGISTER")).click();
+
+		driver.findElement(By.name("firstName")).sendKeys("John");
+
+		driver.findElement(By.name("lastName")).sendKeys("Cena");
+
+		driver.findElement(By.name("phone")).sendKeys("555-555-5555");
+
+		driver.findElement(By.name("userName")).sendKeys("mihail.aquasafe@gmail.com");
 
 		driver.findElement(By.id("userName")).sendKeys("John Cena");
 
@@ -52,6 +67,15 @@ public class Demo {
 
 		driver.findElement(By.name("postalCode")).sendKeys("20906");
 
+
+		WebElement countryDropdown = driver.findElement(By.name("country"));
+
+		Select countrySelect = new Select(countryDropdown);
+
+		countrySelect.selectByVisibleText("MOLDOVA");
+
+		driver.findElement(By.name("email")).sendKeys("mihail.aquasafe@gmail.com");
+
 		driver.findElement(By.name("email")).sendKeys("john_cena@gmail.com");
 
 		driver.findElement(By.name("password")).sendKeys("Sasha09092018");
@@ -64,5 +88,13 @@ public class Demo {
 
 		driver.close();
 
+		
 	}
-}
+ 
+
+
+	}
+
+
+
+
