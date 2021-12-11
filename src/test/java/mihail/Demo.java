@@ -23,15 +23,15 @@ public class Demo {
 
 		driver.findElement(By.linkText("REGISTER")).click();
 
-		driver.findElement(By.name("firstName")).sendKeys("Mihail");
+		driver.findElement(By.name("firstName")).sendKeys("John");
 
-		driver.findElement(By.name("lastName")).sendKeys("Stegariov");
+		driver.findElement(By.name("lastName")).sendKeys("Cena");
 
-		driver.findElement(By.name("phone")).sendKeys("240-393-5816");
+		driver.findElement(By.name("phone")).sendKeys("555-555-5555");
 
 		driver.findElement(By.name("userName")).sendKeys("mihail.aquasafe@gmail.com");
 
-		driver.findElement(By.name("address1")).sendKeys("14801 Hammersmith Circle");
+		driver.findElement(By.name("address1")).sendKeys("7466 New Ridge Road");
 
 		driver.findElement(By.name("city")).sendKeys("Silver Spring");
 
