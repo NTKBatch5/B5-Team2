@@ -29,22 +29,22 @@ public class DemoGuruTwo {
 		// driver.getTitle();
 
 		// <input maxlength="60" name="firstName" size="20">
-		driver.findElement(By.name("firstName")).sendKeys("Diana");
+		driver.findElement(By.name("firstName")).sendKeys("a");
 
 		// <input maxlength="60" name="lastName" size="20">
-		driver.findElement(By.name("lastName")).sendKeys("Petrusca");
+		driver.findElement(By.name("lastName")).sendKeys("b");
 
 		// <input maxlength="20" name="phone" size="15">
 	//	String bodyText = driver.findElement(By.tagName("body")).getText();
 		//Assert.assertTrue("Text not found!", bodyText.contains(text));
-		driver.findElement(By.name("phone")).sendKeys("(571)338-0455");
+		driver.findElement(By.name("phone")).sendKeys("12345Vishal zaichik pogulyaty");
 
 		// <input name="userName" id="userName" size="35" maxlength="64">
 		driver.findElement(By.name("userName")).sendKeys("dp@gmail.com");
 
 		// <input maxlength="60" <input maxlength="60" name="address1"
 		// size="40">="address1" size="40">
-		driver.findElement(By.name("address1")).sendKeys("111 s Uhle st");
+		driver.findElement(By.name("address1")).sendKeys("Blah-Blah");
 
 		// <input maxlength="60" name="city" size="15">
 		driver.findElement(By.name("city")).sendKeys("Arlington");
@@ -53,7 +53,7 @@ public class DemoGuruTwo {
 		driver.findElement(By.name("state")).sendKeys("Virginia");
 
 		// <input maxlength="20" name="postalCode" size="15">
-		driver.findElement(By.name("postalCode")).sendKeys("22206");
+		driver.findElement(By.name("postalCode")).sendKeys("2222");
 
 		Select drpCountry = new Select(driver.findElement(By.name("country")));
 		drpCountry.selectByVisibleText("UNITED STATES");
